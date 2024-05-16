@@ -150,3 +150,6 @@ hr{
     padding-inline-start: 0px;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+}
