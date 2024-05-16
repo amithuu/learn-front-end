@@ -1,19 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* for setting the primary color for the whole website we define inside root */
+:root{
+    --primary-color:#7C3AED;
+    --dar-grey : #6B7280;
+    --off-white : #F3F4F6;
+}
+
+
+
+
 body{
-    color: red;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
 }
 
-h1{
-    color: blueviolet;
+/** containers **/
+.container{
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    /* instead this as for top and bottom we have no padding so '0' */
+    padding: 0rem 1rem;
 }
 
-#header-color{
-    color: green;
+.container-center{
+    max-width: 600px;
+    margin: auto;
 }
 
-.para-color{
-    color: pink;
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* top right bottom left */
+    /* if given for top and right sma e will be taken for top=bottom and right=left */
 }
 
-h2{
-    color: yellow;
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/* as the hr line was combining with link, we have margin between 2 components */
+hr{
+    margin: 2rem 0rem;
+}
+
+/** Lists **/
+
+.list-no-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** Nav **/
+
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+.navigation .link{
+    color: white;
+}
+
+.navigation .list-no-bullet{
+    text-align: right;
+}
+
+.nav-box{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**  headers **/
+
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head{
+    padding-top: 1rem;
+    color: var(--dar-grey);
+    text-align: center;
+}
+
+
+.hero .hero-head .heading-inverter{
+    color: var(--primary-color);
+}
+
+
+/**  Section **/
+
+
+.section {
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+
+/**  footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .ul{
+    padding-inline-start: 0px;
 }

@@ -16,11 +16,11 @@
 </head>
 <body>
 
-    <h1 id="header-color">Welcome to Amith Component Library </h1>
+    <h1>Welcome to Amith Component Library </h1>
     <!-- <h1 style="color: red;">Welcome to Amith Component Library </h1> --> 
     <!-- 2nd  way of styling -->
     
-    <p class="para-color">This is Learning How we make components in one place so that we access when we are doing Projects</p>
+    <p>This is Learning How we make components in one place so that we access when we are doing Projects</p>
 
     <hr>
     <!--this tag is for adding an line -->
@@ -30,25 +30,26 @@
     <h1>This is the Biggest Heading</h1> 
     <!-- this is row line block, it take the entire row for it.. -->
     <h2>This is Second Biggest </h2>
-    <p class="para-color">This is paragraph or a normal text, we can wrap at end, it is free flowing text.</p>
-    <small class="para-color">This is smaller text</small>
+    <p>This is paragraph or a normal text, we can wrap at end, it is free flowing text.</p>
+    <p>This Paragraph will have <strong>Bold</strong> Text</p>
+    <small>This is smaller text</small>
 
     <hr>
 
     <h2>@container</h2>
 
     <h3>@fluid container</h3>
-    <div>This is fluid container this will go till end of the page</div>
+    <div class="container">This is fluid container this will go till end of the page</div>
 
     <h3>@centre container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a> 
-    <a href="/">Secondary Link</a>
+    <a class ='link primary-link'href="/">Primary Link</a> 
+    <a class  = 'link secondary-link'href="/">Secondary Link</a>
     <!-- this is inline line block even if i write it next to a tag it comes next to first tag -->
 
     <hr>
@@ -56,8 +57,8 @@
     <h2>@lists</h2>
 
     <h3>@unordered lists</h3>
-
-    <ul>
+    <p>For this points i don't want bullet's</p>
+    <ul class = 'list-no-bullet'>
         <li>One Ele</li>
         <li>Two Ele</li>
         <li>Three Ele</li>
@@ -66,15 +67,16 @@
 
     <h3>@unordered inline lists</h3>
 
-    <ul>
-        <li>One Ele</li>
-        <li>Two Ele</li>
-        <li>Three Ele</li>
+    <ul class="list-no-bullet">
+        <li class = 'list-item-inline'>One Ele</li>
+        <li class = 'list-item-inline'>Two Ele</li>
+        <li class = 'list-item-inline'>Three Ele</li>
     </ul>
 
     <h3> reverse ordered lists</h3>
 
-    <ol>
+    <ol reversed> 
+        <!-- for reversing we just need to call reversed -->
         <li>Milk</li>
         <li>Curd</li>
         <li>Ragi</li>
@@ -85,12 +87,12 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>Iam Brand</div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Products</a></li>
-            <li><a href="/">about</a></li>
+    <nav class = 'navigation'>
+        <div class = 'nav-box'>Iam Brand</div>
+        <ul class = 'list-no-bullet nav-pills'>
+            <li class = 'list-item-inline'><a class='link link-active' href="/">Home</a></li>
+            <li class = 'list-item-inline'><a class='link' href="/">Products</a></li>
+            <li class = 'list-item-inline'><a class='link' href="/">about</a></li>
         </ul>
     </nav>
 
@@ -98,23 +100,23 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="images/hero.svg" alt="Image Loading">
-        <h1>Heading Inside Header</h1>
+    <header class = 'hero'>
+        <img class = 'hero-img'src="images/hero.svg" alt="Image Loading">
+        <h1 class = 'hero-head'>amith kulkarni the <span class = 'heading-inverter'>WEB DEVELOPER</span></h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class = 'section'>
+        <h1>white section</h1>
+        <p class = 'container container-center'>The section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading ( h1- h6 element) as a child of the section element.</p>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have grey background</p>
+    <section class = 'section off-white'>
+        <h1>off white section</h1>
+        <p class = 'container container-center'>The section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading ( h1- h6 element) as a child of the section element.</p>
     </section>
 
     <hr>
@@ -123,22 +125,25 @@
     <h2>@footer</h2>
 
 
-    <footer>
-        <div>header inside footer</div>
-        <ul>
-            <li>social One</li>
-            <li>social Two</li>
-            <li>social Three</li>
+    <footer class = 'footer'>
+        <div class = 'footer-header'>Header inside footer</div>
+        <ul class = 'social-links list-no-bullet'>
+            <li class = 'list-item-inline'>
+                <a class = 'link ' href="/">social One</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href="/">social Two</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href="/">social Three</a>
+            </li>
         </ul>
     </footer>
 
 
 
 
-
-
-
-    <div style="height:50vh;">
+    <div style="height:20vh;">
     </div>
 
 </body>
