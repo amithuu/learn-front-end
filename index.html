@@ -4,16 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home | amith kulkarni </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-    <nav>
-        <div>amith kulkarni</div>
-        <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Blogs</li>
+    <nav class = 'navigation'>
+        <div class = 'nav-box'>amith kulkarni</div>
+        <ul class = 'list-no-bullets'>
+            <li class = 'list-item-inline'>
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
         </ul>
     </nav>
+
+
+    <header class = 'hero'>
+        <img class ='img-hero'src="images/hero.svg" alt="hero image loading">
+        <h1 class = 'hero-head'>amith kulkarni the <span class = 'hero-bold'>WEB DEVELOPER</span></h1>
+    </header>
+
+    <section class = 'section off-white'>
+        <div class=" container container-center">
+            <h1>Tech Stack</h1>
+            <p>Python Django Rest-Framework HTML CSS POSTMAN GIT</p>
+        </div>    
+    </section>
+
+    <section class = 'section'>
+        <div class=" container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class = 'link primary-link' href="projects.html">See Projects</a>
+        </div>
+    </section>
+
+
+    <section class = 'section off-white'>
+        <div class=" container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
+            <a class = 'link secondary-link' href="blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class = 'footer'>
+        <div class = 'footer-header'>social media presence</div>
+        <ul class = 'list-no-bullets'>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href="https://github.com/amithuu">Github</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href="/">Twitter</a>
+            </li>
+            <li class = 'list-item-inline'>
+                <a class = 'link' href="https://www.linkedin.com/in/amithkulkarni3/">Linkedin</a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+
+    <div style="height: 30vmin;">
+    </div>
 </body>
 </html>
