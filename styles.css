@@ -1,0 +1,19 @@
+body{
+    color: red;
+}
+
+h1{
+    color: blueviolet;
+}
+
+#header-color{
+    color: green;
+}
+
+.para-color{
+    color: pink;
+}
+
+h2{
+    color: yellow;
+}
