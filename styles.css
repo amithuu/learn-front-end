@@ -76,6 +76,7 @@ body{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .img-hero{
@@ -135,6 +136,4 @@ body{
     font-weight: bold;
 }
 
-
-
-/* blogs */
+/* experience */
