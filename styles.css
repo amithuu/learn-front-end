@@ -76,6 +76,7 @@ body{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .img-hero{
@@ -99,7 +100,7 @@ body{
 .section{
     padding: 2rem;
     border-radius: 1rem;
-    margin: 2rem 0;
+    margin: 2rem 0rem;
     text-align: center;
 }
 
@@ -135,6 +136,15 @@ body{
     font-weight: bold;
 }
 
+.list-center{
+    text-align: justify;
+}
 
+.small{
+    text-decoration: underline;
+}
 
-/* blogs */
+/* projects margin */
+.prj1{
+    margin-top: 30px;
+}
