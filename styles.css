@@ -136,3 +136,15 @@ body{
     font-weight: bold;
 }
 
+.list-center{
+    text-align: justify;
+}
+
+.small{
+    text-decoration: underline;
+}
+
+/* projects margin */
+.prj1{
+    margin-top: 30px;
+}
