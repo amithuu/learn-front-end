@@ -100,7 +100,7 @@ body{
 .section{
     padding: 2rem;
     border-radius: 1rem;
-    margin: 2rem 0;
+    margin: 2rem 0rem;
     text-align: center;
 }
 
@@ -136,4 +136,3 @@ body{
     font-weight: bold;
 }
 
-/* experience */
