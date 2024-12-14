@@ -148,3 +148,12 @@ body{
 .prj1{
     margin-top: 30px;
 }
+
+
+.location-tag {
+    font-size: 0.8em; /* Smaller size for the tag */
+    color: gray;      /* Subtle color for the location */
+    display: block;   /* Places it below the header */
+    margin-top: 5px;  /* Adds some space below the header */
+    font-style: italic; /* Optional: makes it look more like a tag */
+  }
